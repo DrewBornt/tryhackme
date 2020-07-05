@@ -1,12 +1,10 @@
-10.10.104.20
-
-#Task 1
-Scan the machine. (If you are unsure how to tackle this, I recommend checking out the room RP: Nmap)
-How many ports are open with a port number under 1000?
+# Task 1
+ 1. Scan the machine. (If you are unsure how to tackle this, I recommend checking out the room RP: Nmap)
+ 2. How many ports are open with a port number under 1000?
 'nmap -sC -sV 10.10.104.20': 3
-What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)
+ 3. What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)
 'nmap --script=vuln 10.10.104.20': ms17_010
-#Task 2
+# Task 2
 Start Metasploit
 'msfconsole'
 Find the exploitation code we will run against the machine. What is the full path of the code? (Ex: exploit/........)
