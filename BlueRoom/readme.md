@@ -1,3 +1,6 @@
+# Write Up for the Blue Room
+https://tryhackme.com/room/blue
+
 # Task 1
  1. Scan the machine. (If you are unsure how to tackle this, I recommend checking out the room RP: Nmap)
  2. How many ports are open with a port number under 1000?
