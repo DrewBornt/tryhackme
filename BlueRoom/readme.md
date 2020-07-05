@@ -75,13 +75,19 @@ ctrl+z, 'y', then 'ps'. I am going to use 3064 for the TrustedInstaller.exe.
 2. Copy this password hash to a file and research how to crack it. What is the cracked password?
  
 I copied the whole hash line starting with jon and ending in ::: then paste that into a file I just named hash.
+
 In a seperate terminal I ran 'john --wordlist=/usr/share/wordlists/rockyou.txt --format=NT hash'
+
 This gave me the password I needed! There is another way to do it from within metasploit, but I did not have my database setup prior to this.
 
 # Task 5
 
 I took to long getting the right syntax for so I had to reexploit the machine, but coming back in I was stil nt\system
+
 I typed 'cd /' and then 'cat flag1.txt' for the first flag.
+
 I then navigated to /Users/Jon/Documents just to peek AND! found flag 3.
+
 Now where is flag2? The hint is supposed to point us to where windows stores its passwords.
+
 With some googling 'cd /windows/system32/config' and there's flag 2!
