@@ -1,4 +1,4 @@
-# Write Up for the Blue Room
+# Write Up for Blue Room
 https://tryhackme.com/room/blue
 
 # Task 1
